@@ -34,7 +34,7 @@
                 <p id="wechatmsg">xxx班 xxx</p>
                 <div class="background">
                     <img src="./images/link.png" alt="">
-                    <p id="wechatmsg">“青年大学习”第十一季第十三期</p>
+                    <p id="wechatlink">“青年大学习”第十一季第十三期</p>
                 </div>
                 <img src="./images/footer.png" alt="">
             </div>
@@ -61,7 +61,7 @@
 
         function generate() {
             document.getElementById('wechatname').innerText = document.getElementById("nowwechatname").value;
-            document.getElementById('wechatmsg').innerHTML = document.getElementById('nowwechatlink').value;
+            document.getElementById('wechatlink').innerHTML = document.getElementById('nowwechatlink').value;
             document.getElementById('wechatmsg').innerHTML = document.getElementById('nowwechatmsg').value;
             html2image(element, image);
         }
